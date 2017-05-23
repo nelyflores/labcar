@@ -58,3 +58,8 @@
 	border-top: solid white 1px;
 
 }
+.transparente{
+	background-color: transparent;
+	border:solid white 1px;
+	border-radius: 10px;
+}
