@@ -40,9 +40,9 @@
  <h2>Disfruta del viaje</h2>
   <h2>Eres dueño de tu tiempo</h2>
   <p class="tamano">viaja con <strong>Lab<var><</var>ar </strong></p>
-  <p ><a class="btn btn-primary btn-lg colorbotonlogin" href="#" role="button">Registrate</a></p>
+  <p ><a class="btn btn-primary btn-lg colorbotonlogin" href="#" role="button"data-toggle="modal"data-target="#exampleModal2" data-whatever="@mdo">Registrate</a></p>
   <p class="tamano">o bien</p>
-  <p><a class="btn btn-primary btn-lg colorbotonlogin" href="#" role="button">Conviertete en un conductor</a></p>
+  <p><a class="btn btn-primary btn-lg colorbotonlogin" href="#" role="button"data-toggle="modal"data-target="#exampleModal3" data-whatever="@mdo">Conviertete en un conductor</a></p>
   </div>
   
 
@@ -51,12 +51,12 @@
 </section>
 
 <section class="naranja">
-<div class="row acomodo colorletra">
- <div class="col-xs-1"></div>
-  <div class="col-xs-5">
+<div class="row acomodo colorletra ">
+ <div class="col-xs-1 borde"></div>
+  <div class="col-xs-5 borde">
   	<img src="img/iPhone6Plus.png">
   </div>
-  <div class="col-xs-4">
+  <div class="col-xs-4 borde">
   	<h2>Descarga la nueva app</h2>
   	<p>La version actualizada de Labcar esta llena de nuevas funciones para llegar a donde quieras aun mas facil y rapido</p>
   	<p>Con solo tocar un boton, un auto llega justo a tu ubicacion. Subete y no te preocupes: tu conductos sabe a donde ir</p>
@@ -83,16 +83,19 @@
   	
   	<form>
   		<div class="form-group">
-  		<span class="input-group-btn"><img  src="img/shape.png">
+
+  		<span class="input-group-btn"><img  src="img/shape.png"></span>
   		
-  			<input type="text" class="form-control " placeholder="ingrese su punto de partida"></span>
+  			<input type="text" class="form-control " placeholder="ingrese su punto de partida">
   			<a><img src="img/shape2.png"></a>
   			<input type="text" class="form-control " placeholder="ingrese su destino">
   		</div>
   		 <button type="submit" class="btn btn-default">¡TRAZAR RUTA!</button>
   	</form>
   </div>
-  <div class="col-xs-6">.col-xs-6</div>
+  <div class="col-xs-6">
+  	<img class="img-thumbnail" src="img/mapa.png">
+  </div>
 </div>
 </section>
 
@@ -100,7 +103,7 @@
 <div class="row">
 <div class="col-xs-1"></div>
 <div class="col-xs-10">
-<h2>Labcar</h2>
+<h2>Lab<var><</var>ar</h2>
 <hr>
 </div>
 	
@@ -109,31 +112,31 @@
 <div class="col-xs-4"></div>
 <div class="col-xs-1">
 
-<p>Viaja</p>
-<p>Conduce</p>
-<p>ciudades</p>
-<p>Ciudades</p>
-<p>Entregas</p>
-<p>Como funciona?</p>
-<p>Paises</p>
-<p>Seguridad</p>
+<p><small>Viaja</small></p>
+<p><small>Conduce</small></p>
+<p><small>ciudades</small></p>
+<p><small>Ciudades</small></p>
+<p><small>Entregas</small></p>
+<p><small>Como funciona?</small></p>
+<p><small>Paises</small></p>
+<p><small>Seguridad</small></p>
 </div>
 <div class="col-xs-1"></div>
 <div class="col-xs-1">
 
-<p>Oportunidades</p>
-<p>Nuestra historia</p>
-<p>Api de LabCar</p>
-<p>Eventos</p>
-<p>Dessarrolladores</p>
-<p>Servicios</p>
-<p>Laboratoria</p>
-<p>Coders</p>
+<p><small>Oportunidades</small></p>
+<p><small>Nuestra historia</small></p>
+<p><small>Api de LabCar</small></p>
+<p><small>Eventos</small></p>
+<p><small>Dessarrolladores</small></p>
+<p><small>Servicios</small></p>
+<p><small>Laboratoria</small></p>
+<p><small>Coders</small></p>
 </div>
 <div class="col-xs-1"></div>
 <div class="col-xs-1">
 	<img src="img/appstore.png">
-	<img src="img/enBadgeWebGeneric.png">
+	<img class="alinear" src="img/enBadgeWebGeneric.png">
 </div>
 
 </div>
@@ -177,8 +180,141 @@
         </form>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Send message</button>
+        <button type="button" class="btn btn-primary  btn-lg btn-block">LOGIN</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="exampleModalLabel">¿YA TIENES UNA CUENTA?</h4>
+      </div>
+
+      <div class="modal-body">
+        <form>
+        <P>O CREA UNA CUENTA NUEVA</P>
+
+          <div class="form-group">
+        <div class="row">
+  <div class="col-xs-6">
+    <input type="text" class="form-control" placeholder="Nombre">
+  </div>
+  <div class="col-xs-6">
+    <input type="text" class="form-control" placeholder="Apellido">
+  </div>
+  
+</div>
+</div>
+  <div class="form-group">
+   
+    
+      <input type="password" class="form-control" id="inputPassword" placeholder="Correo electronico name@example.com">
+    
+  </div>
+   <div class="form-group">
+   
+    
+      <input type="password" class="form-control" id="inputPassword" placeholder="Teléfono">
+    
+  </div>
+   <div class="form-group">
+   
+    
+      <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña">
+    
+  </div>
+   <div class="form-group">
+   
+    
+      <input type="password" class="form-control" id="inputPassword" placeholder="Ciudad">
+    
+  </div>
+  <div class="form-group">
+   
+    
+      <input type="password" class="form-control" id="inputPassword" placeholder="(Opcional)Código de invitación">
+    
+  </div>
+  <select class="form-control">
+  <option>¿Cómo te enteraste ?</option>
+  <option>2</option>
+  <option>3</option>
+  <option>4</option>
+  <option>5</option>
+</select>
+          
+        </form>
+      </div>
+      <div class="modal-footer">
+        
+        <button type="button" class="btn btn-primary  btn-lg btn-block">Enviar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="exampleModalLabel">DATOS DEL CONDUCTOR</h4>
+      </div>
+
+      <div class="modal-body">
+        <form>
+        <P>¿TIENES UN VEHICULO DE CUATRO PUERTAS?</P>
+        <select class="form-control">
+  <option>Sí</option>
+  <option>No</option>
+  
+</select>
+
+<P>MARCA</P>
+        <select class="form-control">
+  <option>Elige la marca del vehiculo</option>
+  <option>NO</option>
+  
+</select>
+<p>¿No ves tu vehículo en la lista?Envía un correo electrónico a <link rel="stylesheet" type="text/css" href="">sociosmvd@uber.com</p>
+<p>MODELO</p>
+<select class="form-control">
+  <option>Elige el modelo del vehiculo</option>
+  <option>NO</option>
+  
+</select>
+<p>AÑO</p>
+<select class="form-control">
+  <option>Elige el año del vehiculo</option>
+  <option>NO</option>
+  
+</select>
+<p>NÚMERO DE LA MATRÍCULA</p>
+<div class="form-group">
+   
+    
+      <input type="password" class="form-control" id="inputPassword" placeholder="Número de la matrícula">
+    
+  </div>
+  <p>La información de tu matrícula ayuda a los clientes a identificar tu vehículo</p>
+
+
+     
+  
+ 
+    
+     
+          
+        </form>
+      </div>
+      <div class="modal-footer">
+        
+        <button type="button" class="btn btn-primary  btn-lg btn-block">Enviar</button>
       </div>
     </div>
   </div>
